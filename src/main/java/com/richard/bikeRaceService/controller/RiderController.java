@@ -23,4 +23,5 @@ public class RiderController {
         Rider newRider = riderService.registerRiders(rider);
         return new ResponseEntity<>(newRider, HttpStatus.CREATED);
     }
+
 }
